@@ -1,0 +1,43 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #609960;
+  }
+  
+  mat-toolbar {
+    background-color: #609960;
+    color: #555;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    justify-content: left;
+    gap: 20px;
+    padding-left: 10px;
+  }
+  
+  
+  .box {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: start-inline;
+  
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  span{
+    color: #fff;
+  }
+  

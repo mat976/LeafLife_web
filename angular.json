@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "LeafLife_web": {
+    "Analyse-sentimentale": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/leaf-life-web",
+            "outputPath": "dist/analyse-sentimentale",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -30,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -65,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "LeafLife_web:build:production"
+              "browserTarget": "Analyse-sentimentale:build:production"
             },
             "development": {
-              "browserTarget": "LeafLife_web:build:development"
+              "browserTarget": "Analyse-sentimentale:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "LeafLife_web:build"
+            "browserTarget": "Analyse-sentimentale:build"
           }
         },
         "test": {
@@ -93,6 +94,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -102,6 +104,6 @@
     }
   },
   "cli": {
-    "analytics": "ae73f4ac-5b2f-455f-9016-4f8059c78458"
+    "analytics": "b46b61b5-d43f-4af9-a435-e7db299da2b9"
   }
 }
