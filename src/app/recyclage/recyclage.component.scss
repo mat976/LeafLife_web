@@ -16,10 +16,11 @@
     
   
     h2 {
-        font-size: 36px;
-        margin-bottom: 24px;
-        word-break: break-word;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.5; /* ajustez la valeur selon vos besoins */
       }
+      
       
       
     p {
@@ -40,6 +41,7 @@
     margin: 20px auto;
     padding: 20px;
     width: 70%;
+    height: 100%;
   }
   
   .card-image {
