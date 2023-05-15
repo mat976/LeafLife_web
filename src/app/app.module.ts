@@ -11,13 +11,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './base/header/header.component';
 import { FooterComponent } from './base/footer/footer.component';
 import { FirstboxComponent } from './firstbox/firstbox.component';
+import { RecyclageComponent } from './recyclage/recyclage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    FirstboxComponent
+    FirstboxComponent,
+    RecyclageComponent
   ],
   imports: [
     BrowserModule,

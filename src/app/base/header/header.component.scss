@@ -13,6 +13,19 @@
 .header-tabs {
   margin-left: auto;
 }
+::ng-deep {
+  .mat-toolbar {
+    background-color: #609960; // remplacez par la couleur verte de votre choix
+  }
+}
+
+mat-toolbar {
+  background-color: green;
+  color: #fff;
+  font-size: 28px; // ajustez la taille de police en fonction de vos besoins
+}
+
+
 
 .custom-list {
   display: flex;
