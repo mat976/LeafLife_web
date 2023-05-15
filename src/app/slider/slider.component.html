@@ -1,8 +1,16 @@
-<div class="gallery-container">
-    <div class="gallery-image-wrapper">
-      <img class="gallery-image current" [src]="images[currentIndex]" (click)="changeImage()">
-      <img class="gallery-image next" [src]="images[getNextIndex()]" (click)="changeImage()">
-      <img class="gallery-image prev" [src]="images[getPrevIndex()]" (click)="changeImage()">
+
+  <div class="card">
+    <div class="card-content">
+      <h2>Le tri des déchets !</h2>
+      <p>Le tri des déchets consiste à séparer les différents types de déchets en vue de leur recyclage et de leur traitement approprié. Il permet de réduire la quantité de déchets enfouis ou incinérés, de préserver les ressources naturelles en recyclant les matières premières, et de limiter les impacts environnementaux liés à l'extraction et à la production de nouvelles matières.</p>
+    </div>
+    <div class="card-image">
+      <div class="gallery-container">
+        <div class="gallery-image-wrapper">
+          <img class="gallery-image current" [src]="images[currentIndex]" (click)="changeImage()">
+          <img class="gallery-image next" [src]="images[getNextIndex()]" (click)="changeImage()">
+          <img class="gallery-image prev" [src]="images[getPrevIndex()]" (click)="changeImage()">
+        </div>
+      </div>
     </div>
   </div>
-  
