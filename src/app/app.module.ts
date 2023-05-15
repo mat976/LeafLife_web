@@ -13,6 +13,7 @@ import { FooterComponent } from './base/footer/footer.component';
 import { FirstboxComponent } from './firstbox/firstbox.component';
 import { RecyclageComponent } from './recyclage/recyclage.component';
 import { SliderComponent } from './slider/slider.component';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SliderComponent } from './slider/slider.component';
     FooterComponent,
     FirstboxComponent,
     RecyclageComponent,
-    SliderComponent
+    SliderComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,

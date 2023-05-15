@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [],
@@ -18,7 +20,8 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule, 
     MatGridListModule,
     MatMenuModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
   ],
   exports: [
     CommonModule,
@@ -28,7 +31,8 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule, 
     MatGridListModule,
     MatMenuModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
   ]
 })
 export class SharedModule { }
