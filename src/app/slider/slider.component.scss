@@ -1,0 +1,36 @@
+.gallery-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gallery-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 500px;
+    height: 400px;
+  }
+  
+  
+  .gallery-image {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    display: none;
+    opacity: 0;
+    transition: opacity 1s;
+  
+  }
+  
+  .current {
+    display: block;
+    opacity: 1;
+  }
+  
+  .prev, .next {
+    width: 30%;
+    max-width: 150px;
+    margin: 0 10px;
+  }
+  

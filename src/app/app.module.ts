@@ -12,6 +12,7 @@ import { HeaderComponent } from './base/header/header.component';
 import { FooterComponent } from './base/footer/footer.component';
 import { FirstboxComponent } from './firstbox/firstbox.component';
 import { RecyclageComponent } from './recyclage/recyclage.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { RecyclageComponent } from './recyclage/recyclage.component';
     HeaderComponent,
     FooterComponent,
     FirstboxComponent,
-    RecyclageComponent
+    RecyclageComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

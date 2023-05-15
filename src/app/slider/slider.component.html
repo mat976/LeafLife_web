@@ -1,0 +1,8 @@
+<div class="gallery-container">
+    <div class="gallery-image-wrapper">
+      <img class="gallery-image current" [src]="images[currentIndex]" (click)="changeImage()">
+      <img class="gallery-image next" [src]="images[getNextIndex()]" (click)="changeImage()">
+      <img class="gallery-image prev" [src]="images[getPrevIndex()]" (click)="changeImage()">
+    </div>
+  </div>
+  
