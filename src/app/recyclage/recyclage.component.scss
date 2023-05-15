@@ -16,11 +16,12 @@
     
   
     h2 {
-      margin: 0;
-      font-size: 24px;
-      font-weight: bold;
-    }
-  
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        line-height: 1.2; /* Ajout de line-height */
+      }
+      
     p {
       margin: 8px 0;
     }
